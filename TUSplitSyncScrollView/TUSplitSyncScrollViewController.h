@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TUViewController : UIViewController
+@interface TUSplitSyncScrollViewController : UIViewController
 
 @end

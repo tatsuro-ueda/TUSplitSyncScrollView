@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class TUViewController;
+@class TUSplitSyncScrollViewController;
 
 @interface TUAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) TUViewController *viewController;
+@property (strong, nonatomic) TUSplitSyncScrollViewController *viewController;
 
 @end

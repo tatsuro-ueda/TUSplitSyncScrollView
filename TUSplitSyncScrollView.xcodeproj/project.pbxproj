@@ -16,9 +16,10 @@
 		5458A866177BE5CE00F9A06B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5458A865177BE5CE00F9A06B /* Default.png */; };
 		5458A868177BE5CE00F9A06B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5458A867177BE5CE00F9A06B /* Default@2x.png */; };
 		5458A86A177BE5CE00F9A06B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5458A869177BE5CE00F9A06B /* Default-568h@2x.png */; };
-		5458A86D177BE5CE00F9A06B /* TUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5458A86C177BE5CE00F9A06B /* TUViewController.m */; };
-		5458A870177BE5CE00F9A06B /* TUViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5458A86E177BE5CE00F9A06B /* TUViewController_iPhone.xib */; };
-		5458A873177BE5CE00F9A06B /* TUViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5458A871177BE5CE00F9A06B /* TUViewController_iPad.xib */; };
+		5458A86D177BE5CE00F9A06B /* TUSplitSyncScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5458A86C177BE5CE00F9A06B /* TUSplitSyncScrollViewController.m */; };
+		5458A87A177BE66600F9A06B /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5458A879177BE66600F9A06B /* flower.jpg */; };
+		5458A87D177BE92E00F9A06B /* TUSplitedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5458A87C177BE92E00F9A06B /* TUSplitedScrollView.m */; };
+		5458A880177BEE0D00F9A06B /* TUSeparateBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5458A87F177BEE0D00F9A06B /* TUSeparateBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +36,13 @@
 		5458A865177BE5CE00F9A06B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5458A867177BE5CE00F9A06B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5458A869177BE5CE00F9A06B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		5458A86B177BE5CE00F9A06B /* TUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TUViewController.h; sourceTree = "<group>"; };
-		5458A86C177BE5CE00F9A06B /* TUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUViewController.m; sourceTree = "<group>"; };
-		5458A86F177BE5CE00F9A06B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TUViewController_iPhone.xib; sourceTree = "<group>"; };
-		5458A872177BE5CE00F9A06B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TUViewController_iPad.xib; sourceTree = "<group>"; };
+		5458A86B177BE5CE00F9A06B /* TUSplitSyncScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TUSplitSyncScrollViewController.h; sourceTree = "<group>"; };
+		5458A86C177BE5CE00F9A06B /* TUSplitSyncScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUSplitSyncScrollViewController.m; sourceTree = "<group>"; };
+		5458A879177BE66600F9A06B /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
+		5458A87B177BE92E00F9A06B /* TUSplitedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUSplitedScrollView.h; sourceTree = "<group>"; };
+		5458A87C177BE92E00F9A06B /* TUSplitedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUSplitedScrollView.m; sourceTree = "<group>"; };
+		5458A87E177BEE0D00F9A06B /* TUSeparateBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUSeparateBarView.h; sourceTree = "<group>"; };
+		5458A87F177BEE0D00F9A06B /* TUSeparateBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUSeparateBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +89,16 @@
 		5458A859177BE5CE00F9A06B /* TUSplitSyncScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				5458A87E177BEE0D00F9A06B /* TUSeparateBarView.h */,
+				5458A87F177BEE0D00F9A06B /* TUSeparateBarView.m */,
+				5458A879177BE66600F9A06B /* flower.jpg */,
 				5458A862177BE5CE00F9A06B /* TUAppDelegate.h */,
 				5458A863177BE5CE00F9A06B /* TUAppDelegate.m */,
-				5458A86B177BE5CE00F9A06B /* TUViewController.h */,
-				5458A86C177BE5CE00F9A06B /* TUViewController.m */,
-				5458A86E177BE5CE00F9A06B /* TUViewController_iPhone.xib */,
-				5458A871177BE5CE00F9A06B /* TUViewController_iPad.xib */,
+				5458A86B177BE5CE00F9A06B /* TUSplitSyncScrollViewController.h */,
+				5458A86C177BE5CE00F9A06B /* TUSplitSyncScrollViewController.m */,
 				5458A85A177BE5CE00F9A06B /* Supporting Files */,
+				5458A87B177BE92E00F9A06B /* TUSplitedScrollView.h */,
+				5458A87C177BE92E00F9A06B /* TUSplitedScrollView.m */,
 			);
 			path = TUSplitSyncScrollView;
 			sourceTree = "<group>";
@@ -165,8 +172,7 @@
 				5458A866177BE5CE00F9A06B /* Default.png in Resources */,
 				5458A868177BE5CE00F9A06B /* Default@2x.png in Resources */,
 				5458A86A177BE5CE00F9A06B /* Default-568h@2x.png in Resources */,
-				5458A870177BE5CE00F9A06B /* TUViewController_iPhone.xib in Resources */,
-				5458A873177BE5CE00F9A06B /* TUViewController_iPad.xib in Resources */,
+				5458A87A177BE66600F9A06B /* flower.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +185,9 @@
 			files = (
 				5458A860177BE5CE00F9A06B /* main.m in Sources */,
 				5458A864177BE5CE00F9A06B /* TUAppDelegate.m in Sources */,
-				5458A86D177BE5CE00F9A06B /* TUViewController.m in Sources */,
+				5458A86D177BE5CE00F9A06B /* TUSplitSyncScrollViewController.m in Sources */,
+				5458A87D177BE92E00F9A06B /* TUSplitedScrollView.m in Sources */,
+				5458A880177BEE0D00F9A06B /* TUSeparateBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,22 +200,6 @@
 				5458A85D177BE5CE00F9A06B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5458A86E177BE5CE00F9A06B /* TUViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5458A86F177BE5CE00F9A06B /* en */,
-			);
-			name = TUViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		5458A871177BE5CE00F9A06B /* TUViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5458A872177BE5CE00F9A06B /* en */,
-			);
-			name = TUViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -306,6 +298,7 @@
 				5458A878177BE5CE00F9A06B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

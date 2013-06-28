@@ -8,7 +8,7 @@
 
 #import "TUAppDelegate.h"
 
-#import "TUViewController.h"
+#import "TUSplitSyncScrollViewController.h"
 
 @implementation TUAppDelegate
 
@@ -16,11 +16,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[TUViewController alloc] initWithNibName:@"TUViewController_iPhone" bundle:nil];
-    } else {
-        self.viewController = [[TUViewController alloc] initWithNibName:@"TUViewController_iPad" bundle:nil];
-    }
+    self.viewController = [[TUSplitSyncScrollViewController alloc] initWithNibName:nil bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
