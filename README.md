@@ -8,3 +8,5 @@ Two Scroll Views scroll syncly in y axis and zoom syncly
 ![](TUSplitSyncScrollView01.png)
 
 ![](TUSplitSyncScrollView02.png)
+
+Thank you for your Pull Request.
